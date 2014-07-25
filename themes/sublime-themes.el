@@ -22,13 +22,11 @@
 
 ;;; Code:
 
-
 ;;;###autoload
 (when (boundp 'custom-theme-load-path)
-  (add-to-list 'custom-theme-load-path (file-name-as-directory
-                                        (file-name-directory load-file-name))))
-
-
+  (add-to-list 'custom-theme-load-path 
+    (file-name-as-directory
+      (file-name-directory load-file-name))))
 
 (provide 'sublime-themes)
 ;;; sublime-themes.el ends here

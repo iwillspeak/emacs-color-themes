@@ -1,10 +1,20 @@
 # Emacs themes
 
-Emacs color themes originally inspired by some ST2 color themes by Dayle Rees.
+A collection of color themes for Emacs24 +
 
-All the themes are named after personal programming and tech heroes.
+The themes are named after important/influential programmers.
 
-Contributions, fixes and feedback very welcome : )
+Fixes, pull requests and feedback very welcome : )
+
+## Contributors
+
+A big thanks to the following contributors
+
++ Göktuğ Kayaalp https://github.com/cadadr
++ Ryosuke Takeuchi https://github.com/rysk-t
++ Will Speak https://github.com/iwillspeak
++ Steve Purcell https://github.com/purcell
++ Donald Ephraim Curtis https://github.com/milkypostman
 
 ## Use
 
@@ -36,6 +46,34 @@ One line install script
 ```
 git clone https://github.com/owainlewis/emacs-color-themes.git && cd emacs-color-themes && ./install.sh
 ```
+
+## As an Elisp Package
+
+If the package directory is in the load path, one can simply
+
+```
+(require 'emacs-color-themes)
+```
+
+and use `load-theme` function to load any theme that is provided.
+This way, one can add the package to their Emacs configuration as is,
+without needing to add any directories, symlinks or copies.
+
+## Brin
+
+A color theme based on the Space Grey ST2 theme named after Sergey Brin.
+
+> We believed we could build a better search. We had a simple idea,
+> that not all pages are created equal. Some are more important"
+
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/brin.png)
+
+## Granger
+
+A color theme based on the Light Table default
+
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/granger.png)
+
 
 ## Spolsky
 
@@ -110,11 +148,8 @@ A grungy theme based upon an oilstained and muddy aircraft.
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/wilson.png)
 
-## Contributors
+## Junio
 
-Thanks to the following contributors
+A vivid theme like a chocolate
 
-+ Will Speak https://github.com/iwillspeak
-+ Steve Purcell https://github.com/purcell
-+ Donald Ephraim Curtis https://github.com/milkypostman
-
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/junio.png)
